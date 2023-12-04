@@ -1,0 +1,40 @@
+
+#allContent{
+    background-color: aliceblue;
+    /* width: 500px; */
+    text-align: center;
+}
+
+#eventsSection{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 240, 251);
+    /* width: 100%; */
+    /* height: 500px; */
+    justify-content: center;
+}
+
+.cards{
+    border-radius: 3%;
+    width: 250px;
+    background-color: rgb(244, 233, 192);
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cards h4{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.deleteBtn{
+    float: right;
+    background-color: rgb(205, 77, 77);
+    border-radius: 25%;
+    width: 25px;
+    height: 25px;
+    border: none;
+}
